@@ -1,0 +1,19 @@
+- Méthodes à implémenter: 
+ * S'inscrire
+ * Modifier ses informations client
+ * 
+ * Se connecter
+ * Se deconnecter
+ * Récuperer la localisation du client
+ * Rechercher une localisation
+ * Affichier une localisation
+ * Autosuggestion de recherche d'adresse
+ * Afficher l'ensemble de place de stationnement dans une zone
+ * Souscription
+
+
+- Fonctionnalités à developper:
+ * 
+ * Verifier si le client est : inscrit, connecté et à souscrit à un service
+ * Pouvoir saisir une destination à laquelle on souhaite avoir des places de stationnements (Client)
+ * Pouvoir visualiser les places de stationnements dans la zone de destination (Client)

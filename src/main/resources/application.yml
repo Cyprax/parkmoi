@@ -1,0 +1,22 @@
+jwt:
+  secret: secret
+  token_validity: 12000
+server:
+  port: 8081
+spring:
+  datasource:
+    password: ''
+    url: jdbc:mysql://localhost:3306/parkmoi
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop #update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  mail:
+    host: localhost #localhost if maildev, smtp.mailtrap.io if mailtrap, or ... 
+    port: 1025 #1025 if maildev, 2525 if mailtrap, or ...
+    username: #null if maildev, or ...
+    password: #null if maildev, or ...
